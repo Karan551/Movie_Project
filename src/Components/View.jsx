@@ -111,8 +111,6 @@ function View() {
     setPageNumber(event.selected);
   };
 
-  console.log("this is api key in view ", conf.mykey);
-  console.log("this is api key????", import.meta.env.VITE_API_KEY);
   return (
     <>
       <section className="container max-w-lg mx-auto flex justify-center">

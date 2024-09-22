@@ -13,8 +13,6 @@ function App() {
     event.preventDefault();
     navigate("/Movie_Project/view");
   };
-console.log('this is our api key',conf.mykey)
-console.log("this is api key----",import.meta.env.VITE_API_KEY)
   return (
     <>
 
