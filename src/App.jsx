@@ -12,7 +12,7 @@ function App() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    navigate("/view");
+    navigate("/Movie_Project/view");
   };
 
 

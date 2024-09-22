@@ -118,7 +118,7 @@ function Detail() {
                                 </div>
                             }
 
-                            <Link to="/view">
+                            <Link to="/Movie_Project/view">
                                 <button
                                     type="button"
                                     className="inline-block mt-6 px-6 py-3 font-semibold  text-lg text-white bg-teal-500 rounded-xl hover:bg-teal-700 dark:border dark:border-white"
