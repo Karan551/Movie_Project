@@ -5,6 +5,10 @@ on:
     branches:
       - main
 
+# env variables
+env:
+  VITE_API_KEY: ${{secrets.VITE_API_KEY}}
+
 jobs:
   build:
     name: Build
@@ -28,8 +32,6 @@ jobs:
         with:
           name: production-files
           path: ./dist
-        env:
-          VITE_API_KEY: ${{secrets.VITE_API_KEY}}
 
   deploy:
     name: Deploy

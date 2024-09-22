@@ -7,7 +7,6 @@ function App() {
 
   const { search, setSearch } = useData();
   const navigate = useNavigate();
-
   const backgroundPicture = 'https://cdn.pixabay.com/photo/2024/09/17/01/32/forest-9052633_1280.jpg';
 
   const handleSubmit = (event) => {
