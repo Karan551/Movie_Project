@@ -14,7 +14,7 @@ import Detail from './Components/Detail.jsx';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path='/' element={<Layout />}>
+    <Route path='/Movie_Project/' element={<Layout />}>
       <Route index={true} element={<App />} />
       <Route path='view' element={<View />} />
       <Route loader={getMovieInfo} path='detail/:id' element={<Detail />} />
